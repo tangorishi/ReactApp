@@ -1,0 +1,126 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .screen1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .screen1 input[type="text"] {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+    max-width: 400px;
+  }
+  
+  .screen1 button {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .screen1 button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .screen2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .screen2 .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .screen2 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+  }
+  
+  .screen2 .card:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .screen2 .card span:first-child {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .screen2 .card span:last-child {
+    font-size: 18px;
+  }
+  
+  .screen2 .card.delete {
+    background-color: #ff9b9b;
+  }
+  
+  .screen2 .card.delete:hover {
+    background-color: #ff7575;
+  }
+  
+  .screen2 .success-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .screen2 .string-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .screen2 .string-container span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .screen2 .back-button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .screen2 .back-button:hover {
+    background-color: #b3b3b3;
+  }
+  
