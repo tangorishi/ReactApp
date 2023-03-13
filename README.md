@@ -26,4 +26,4 @@ To go back to the first screen, click the *Back* button. The input field will be
 This app was built using React, React DOM, and React Scripts. Additional dev dependencies include Babel Core, Babel Preset Env, and Babel Preset React.
 
 ## License
-This project is licensed under the [MIT License](./LICENSE.md).
+This project is licensed under the [MIT License](./ReactApp/LICENSE).
