@@ -2,6 +2,29 @@
 
 This is a simple React app with two screens. The first screen allows the user to enter a string, and the second screen displays each character of the string on a separate card. Clicking on the delete icon on each card deletes all duplicate instances of the chosen character in the string.
 
+## Description
+```Screen 1```: Provide an input field and a button with text 'Submit'.
+
+User should be able to put in any value in the input field. Clicking on the button should redirect user to screen 2.
+
+If the input field is empty or has only space characters, the user should be shown an alert asking them to provide a non-empty value. In this scenario, we should not redirect the user to screen 2.
+
+```Screen 2```: Let's iterate over each character of the string and render them as a card on the UI. Each card should have the character, and a delete icon on top.
+
+Clicking on the delete icon should delete all duplicate instances of the chosen character in the string. We should make sure that only the clicked instance of the character remains on the screen.
+
+
+
+- Cards for the same characters should have the same background color.
+
+- If there are no more characters with greater than 1 appearance in the string, we shall render a success header.
+
+- We should also show the original string and the new resultant string.
+
+- We should provide a back button to go back to screen 1.
+
+- If the user goes back to screen 1, the input field should be cleared/empty.
+
 ## Getting Started
 To run this app locally, follow these steps:
 
